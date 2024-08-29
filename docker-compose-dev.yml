@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13.2
+    restart: always
+    container_name: table_ui_postgres
+    ports:
+      - ${POSTGRES_PORT}:5432
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRESQL_PASS}
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+      - ./postgresql.conf:/db_config/postgresql.conf
+
+  mongo:
+    image: "mongo:6.0"
+    container_name: "plugins_mongo"
+    env_file:
+     - ./.env
+    ports:
+      - "27017:27017"
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+    volumes:
+      - ./mongo-data:/data/db
+
+    
+  api:
+    build:
+      context: ./plugins
+    container_name: plugins_api
+    env_file:
+     - ./.env
+    command: uvicorn main:app --host 0.0.0.0 --port 5000 --reload --log-level debug
+    ports:
+      - "${PLUGINS_PORT}:5000"
+    restart: always
+    volumes:
+      - ./plugins/app/:/plugins
+    depends_on:
+      - mongo
+      - postgres

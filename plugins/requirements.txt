@@ -1,0 +1,12 @@
+fastapi
+pydantic
+gunicorn
+uvicorn
+tqdm
+rdflib
+pandas
+numpy
+requests
+psycopg2
+pymongo
+python-multipart
