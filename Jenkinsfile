@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps{
-                sh 'npm install'
+                sh 'node --version'
             }
         }
     }
