@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps{
-                sh 'pnpm install'
+                sh 'npm install'
             }
         }
     }
