@@ -1,0 +1,41 @@
+@prefix ns1: <https://www.wikidata.org/wiki/Property:/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:Nd7964afad2254bdaab2dac8a0067985e {
+    <https://www.wikidata.org/wiki/Property:P2044> rdfs:label "elevation above sea level"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Property:P4552> rdfs:label "mountain range"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Property:P610> rdfs:label "highest point"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q1374> a <https://www.wikidata.org/wiki/Q54050> ;
+        rdfs:label "matterhorn"^^xsd:string ;
+        ns1:P2044 "8848.86"^^xsd:float ;
+        ns1:P4552 <https://www.wikidata.org/wiki/Q1270> .
+
+    <https://www.wikidata.org/wiki/Q513> rdfs:label "mount everest"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q583> a <https://www.wikidata.org/wiki/Q54050> ;
+        rdfs:label "mont blanc"^^xsd:string ;
+        ns1:P2044 3275 ;
+        ns1:P4552 <https://www.wikidata.org/wiki/Q765847> .
+
+    <https://www.wikidata.org/wiki/Q690177> a <https://www.wikidata.org/wiki/Q54050> ;
+        rdfs:label "hohtälli"^^xsd:string ;
+        ns1:P2044 4478 ;
+        ns1:P4552 <https://www.wikidata.org/wiki/Q1270> .
+
+    <https://www.wikidata.org/wiki/Q924257> rdfs:label "mahalangur himal"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q765847> a <https://www.wikidata.org/wiki/Q1061151> ;
+        rdfs:label "alps"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q1061151> rdfs:label "massif"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q1270> a <https://www.wikidata.org/wiki/Q1061151> ;
+        rdfs:label "pennine alps"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q54050> rdfs:label "hill"^^xsd:string .
+}
+

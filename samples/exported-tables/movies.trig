@@ -1,0 +1,46 @@
+@prefix ns1: <https://www.wikidata.org/wiki/Property:/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:N75ee7c30fdb34bc49fcc946fbec02476 {
+    <https://www.wikidata.org/wiki/Property:P136> rdfs:label "genre"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Property:P1412> rdfs:label "languages spoken, written or signed"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Property:P161> rdfs:label "cast member"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Property:P17> rdfs:label "country"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Property:P364> rdfs:label "original language of film or TV show"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Property:P800> rdfs:label "notable work"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q1200678> rdfs:label "mystery film"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q210364> rdfs:label "shutter island"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q38111> rdfs:label "leonardo dicaprio"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q83495> a <https://www.wikidata.org/wiki/Q3331189> ;
+        rdfs:label "the matrix"^^xsd:string ;
+        ns1:P136 <https://www.wikidata.org/wiki/Q3990883> ;
+        ns1:P161 <https://www.wikidata.org/wiki/Q43416> ;
+        ns1:P364 <https://www.wikidata.org/wiki/Q1860> .
+
+    <https://www.wikidata.org/wiki/Q10894548> rdfs:label "particular linguistics"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q134556> rdfs:label "single"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q3990883> a <https://www.wikidata.org/wiki/Q3331189> ;
+        rdfs:label "action thriller"^^xsd:string ;
+        ns1:P364 <https://www.wikidata.org/wiki/Q1860> .
+
+    <https://www.wikidata.org/wiki/Q43416> a <https://www.wikidata.org/wiki/Q134556> ;
+        rdfs:label "keanu reeves"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q1860> a <https://www.wikidata.org/wiki/Q10894548> ;
+        rdfs:label "english"^^xsd:string .
+
+    <https://www.wikidata.org/wiki/Q3331189> rdfs:label "version, edition or translation"^^xsd:string .
+}
+

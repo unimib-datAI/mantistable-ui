@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://www.wikidata.org/wiki/Property:/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1200678">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mystery film</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P17">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q83495">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the matrix</rdfs:label>
+    <ns1:P136 rdf:resource="https://www.wikidata.org/wiki/Q3990883"/>
+    <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q3331189"/>
+    <ns1:P364 rdf:resource="https://www.wikidata.org/wiki/Q1860"/>
+    <ns1:P161 rdf:resource="https://www.wikidata.org/wiki/Q43416"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1860">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">english</rdfs:label>
+    <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q10894548"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q3331189">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">version, edition or translation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P364">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">original language of film or TV show</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q3990883">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">action thriller</rdfs:label>
+    <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q3331189"/>
+    <ns1:P364 rdf:resource="https://www.wikidata.org/wiki/Q1860"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q10894548">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">particular linguistics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P161">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cast member</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q43416">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keanu reeves</rdfs:label>
+    <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q134556"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q210364">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shutter island</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P800">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">notable work</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q38111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leonardo dicaprio</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q134556">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P136">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genre</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P1412">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">languages spoken, written or signed</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
